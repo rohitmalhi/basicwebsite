@@ -1,6 +1,10 @@
 @extends('layouts.app')
+
 @section('content')
-    <h1>Home</h1>
+    <h6>Home</h6>
+    <h6>About Us</h6>
+    <h6>Contact Us</h6>
+{{$test}}
 @endsection
 @section('sidebar')
     @parent

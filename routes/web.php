@@ -15,12 +15,13 @@
 //   return  new App\Billing\Stripe(config('services.stripe.secret'));
 //});
 //$stripe = App::make('App\Billing\Stripe');
-dd(resolve('App\Billing\Stripe'));
+//dd(resolve('App\Billing\Stripe'));
 Route::get('/injection','AdminController@dashboard');
 Route::get('/', function () {
 
     return view('home');
 });
+
 Route::get('/about', function () {
     return view('about');
 });
